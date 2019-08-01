@@ -1,8 +1,5 @@
 #!/bin/bash
 
-sudo apt install nodejs -y
-sudo apt install npm -y
-sudo npm install forever -g
 bash /tmp/provisioning/getdocker.sh
 sudo groupadd docker
 sudo usermod -aG docker ubuntu
